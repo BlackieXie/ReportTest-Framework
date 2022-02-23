@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.529" tests="4" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="E:\Ieda projects\GitRespo\ReportTest-Allen\target\test-classes;E:\Ieda projects\GitRespo\ReportTest-Allen\target\classes;E:\JAVANotesAndFiles\apache-maven-3.6.2\maven-repo\org\testng\testng\6.9.9\testng-6.9.9.jar;E:\JAVANotesAndFiles\apache-maven-3.6.2\maven-repo\junit\junit\4.10\junit-4.10.jar;E:\JAVANotesAndFiles\apache-maven-3.6.2\maven-repo\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;E:\JAVANotesAndFiles\apache-maven-3.6.2\maven-repo\com\beust\jcommander\1.48\jcommander-1.48.jar;E:\JAVANotesAndFiles\apache-maven-3.6.2\maven-repo\org\apache\ant\ant\1.7.0\ant-1.7.0.jar;E:\JAVANotesAndFiles\apache-maven-3.6.2\maven-repo\org\apache\ant\ant-launcher\1.7.0\ant-launcher-1.7.0.jar;E:\JAVANotesAndFiles\apache-maven-3.6.2\maven-repo\org\yaml\snakeyaml\1.15\snakeyaml-1.15.jar;E:\JAVANotesAndFiles\apache-maven-3.6.2\maven-repo\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;E:\JAVANotesAndFiles\apache-maven-3.6.2\maven-repo\com\relevantcodes\extentreports\2.41.0\extentreports-2.41.0.jar;E:\JAVANotesAndFiles\apache-maven-3.6.2\maven-repo\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;E:\JAVANotesAndFiles\apache-maven-3.6.2\maven-repo\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;E:\JAVANotesAndFiles\apache-maven-3.6.2\maven-repo\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;E:\JAVANotesAndFiles\apache-maven-3.6.2\maven-repo\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;E:\JAVANotesAndFiles\apache-maven-3.6.2\maven-repo\org\mongodb\bson\3.0.4\bson-3.0.4.jar;E:\JAVANotesAndFiles\apache-maven-3.6.2\maven-repo\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;E:\JAVANotesAndFiles\apache-maven-3.6.2\maven-repo\com\vimalselvam\testng-extentsreport\1.3.1\testng-extentsreport-1.3.1.jar;E:\JAVANotesAndFiles\apache-maven-3.6.2\maven-repo\com\google\guava\guava\20.0\guava-20.0.jar;E:\JAVANotesAndFiles\apache-maven-3.6.2\maven-repo\com\aventstack\extentreports\3.0.6\extentreports-3.0.6.jar;E:\JAVANotesAndFiles\apache-maven-3.6.2\maven-repo\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;E:\JAVANotesAndFiles\apache-maven-3.6.2\maven-repo\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;E:\JAVANotesAndFiles\apache-maven-3.6.2\maven-repo\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;E:\JAVANotesAndFiles\apache-maven-3.6.2\maven-repo\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;E:\JAVANotesAndFiles\apache-maven-3.6.2\maven-repo\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="E:\Environment\jdk1.8\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Admin\AppData\Local\Temp\surefire8307688816362162216\surefirebooter319751182447511524.jar C:\Users\Admin\AppData\Local\Temp\surefire8307688816362162216 2022-02-22T16-55-30_339-jvmRun1 surefire2670322838132107691tmp surefire_08936862211049931564tmp"/>
+    <property name="surefire.test.class.path" value="E:\Ieda projects\GitRespo\ReportTest-Allen\target\test-classes;E:\Ieda projects\GitRespo\ReportTest-Allen\target\classes;E:\JAVANotesAndFiles\apache-maven-3.6.2\maven-repo\org\testng\testng\6.9.9\testng-6.9.9.jar;E:\JAVANotesAndFiles\apache-maven-3.6.2\maven-repo\junit\junit\4.10\junit-4.10.jar;E:\JAVANotesAndFiles\apache-maven-3.6.2\maven-repo\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;E:\JAVANotesAndFiles\apache-maven-3.6.2\maven-repo\com\beust\jcommander\1.48\jcommander-1.48.jar;E:\JAVANotesAndFiles\apache-maven-3.6.2\maven-repo\org\apache\ant\ant\1.7.0\ant-1.7.0.jar;E:\JAVANotesAndFiles\apache-maven-3.6.2\maven-repo\org\apache\ant\ant-launcher\1.7.0\ant-launcher-1.7.0.jar;E:\JAVANotesAndFiles\apache-maven-3.6.2\maven-repo\org\yaml\snakeyaml\1.15\snakeyaml-1.15.jar;E:\JAVANotesAndFiles\apache-maven-3.6.2\maven-repo\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;E:\JAVANotesAndFiles\apache-maven-3.6.2\maven-repo\com\relevantcodes\extentreports\2.41.0\extentreports-2.41.0.jar;E:\JAVANotesAndFiles\apache-maven-3.6.2\maven-repo\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;E:\JAVANotesAndFiles\apache-maven-3.6.2\maven-repo\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;E:\JAVANotesAndFiles\apache-maven-3.6.2\maven-repo\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;E:\JAVANotesAndFiles\apache-maven-3.6.2\maven-repo\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;E:\JAVANotesAndFiles\apache-maven-3.6.2\maven-repo\org\mongodb\bson\3.0.4\bson-3.0.4.jar;E:\JAVANotesAndFiles\apache-maven-3.6.2\maven-repo\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;E:\JAVANotesAndFiles\apache-maven-3.6.2\maven-repo\com\vimalselvam\testng-extentsreport\1.3.1\testng-extentsreport-1.3.1.jar;E:\JAVANotesAndFiles\apache-maven-3.6.2\maven-repo\com\google\guava\guava\20.0\guava-20.0.jar;E:\JAVANotesAndFiles\apache-maven-3.6.2\maven-repo\com\aventstack\extentreports\3.0.6\extentreports-3.0.6.jar;E:\JAVANotesAndFiles\apache-maven-3.6.2\maven-repo\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;E:\JAVANotesAndFiles\apache-maven-3.6.2\maven-repo\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;E:\JAVANotesAndFiles\apache-maven-3.6.2\maven-repo\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;E:\JAVANotesAndFiles\apache-maven-3.6.2\maven-repo\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;E:\JAVANotesAndFiles\apache-maven-3.6.2\maven-repo\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Admin"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="E:\Environment\jdk1.8\jre"/>
+    <property name="basedir" value="E:\Ieda projects\GitRespo\ReportTest-Allen"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Admin\AppData\Local\Temp\surefire8307688816362162216\surefirebooter319751182447511524.jar"/>
+    <property name="sun.boot.class.path" value="E:\Environment\jdk1.8\jre\lib\resources.jar;E:\Environment\jdk1.8\jre\lib\rt.jar;E:\Environment\jdk1.8\jre\lib\sunrsasign.jar;E:\Environment\jdk1.8\jre\lib\jsse.jar;E:\Environment\jdk1.8\jre\lib\jce.jar;E:\Environment\jdk1.8\jre\lib\charsets.jar;E:\Environment\jdk1.8\jre\lib\jfr.jar;E:\Environment\jdk1.8\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_281-b09"/>
+    <property name="user.name" value="Admin"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="E:\Environment\jdk1.8\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="E:\JAVANotesAndFiles\apache-maven-3.6.2\maven-repo"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Admin\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2020.2.3"/>
+    <property name="java.version" value="1.8.0_281"/>
+    <property name="user.dir" value="E:\Ieda projects\GitRespo\ReportTest-Allen"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="E:\Environment\jdk1.8\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\Environment\apache-maven-3.6.2\bin;D:\Anaconda3;D:\Anaconda3\Library\mingw-w64\bin;D:\Anaconda3\Library\usr\bin;D:\Anaconda3\Library\bin;D:\Anaconda3\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;E:\MATLAB0\runtime\win64;E:\MATLAB0\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;E:\Environment\jdk1.8\bin;E:\Environment\jdk1.8\jre\bin;E:\Environment\mysql-5.7.33\bin;E:\Environment\apache-tomcat-9.0.45;E:\Environment\nodejs\;E:\Xshell7\;E:\Xftp7\;D:\Software\Git\cmd;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\.dotnet\tools;D:\pycharm\PyCharm 2019.2.6\bin;C:\Users\Admin\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.281-b09"/>
+    <property name="java.ext.dirs" value="E:\Environment\jdk1.8\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="maven.repo.local" value="E:\JAVANotesAndFiles\apache-maven-3.6.2\maven-repo"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="test1" classname="ReportTest" time="0.009">
+    <failure message="expected [2] but found [1]" type="java.lang.AssertionError">java.lang.AssertionError: expected [2] but found [1]
+	at ReportTest.test1(ReportTest.java:8)
+</failure>
+  </testcase>
+  <testcase name="test2" classname="ReportTest" time="0"/>
+  <testcase name="test3" classname="ReportTest" time="0"/>
+  <testcase name="logDemo" classname="ReportTest" time="0">
+    <failure message="这是我自己运行时候的异常" type="java.lang.RuntimeException">java.lang.RuntimeException: 这是我自己运行时候的异常
+	at ReportTest.logDemo(ReportTest.java:24)
+</failure>
+  </testcase>
+</testsuite>
